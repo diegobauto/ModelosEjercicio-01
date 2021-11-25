@@ -4,4 +4,4 @@
 
 -> Diego Alejadro Bautista - 20192020139
 
-![img](http://i.imgur.com/imagenSolid.png)
+<img src="imagenSolid.png" alt="Imagen"/>
