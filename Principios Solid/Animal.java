@@ -1,6 +1,6 @@
 package Solid;
 
 interface Animal {
-    String medio();
+    String getMedio();
     String moverse(String speed);
 }

@@ -4,7 +4,7 @@ package Solid;
 public class Acuatico implements Animal, Aletas {
     
     @Override
-    public String medio() {
+    public String getMedio() {
         return "Es un animal acuatico";
     }
 

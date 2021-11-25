@@ -3,7 +3,7 @@ package Solid;
 public class Terrestre implements Animal{
     
     @Override
-    public String medio() {
+    public String getMedio() {
         return "Es un animal terrestre";
     }
     

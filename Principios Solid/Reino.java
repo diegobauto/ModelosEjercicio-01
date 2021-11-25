@@ -11,11 +11,8 @@ public class Reino {
     
     public void añadirAnimal(){
         //Añade a la lista de animales
-        Acuatico a = new Acuatico();
-        animales.add(a);
-        
-        Terrestre t = new Terrestre();
-        animales.add(t);
+        animales.add(new Acuatico());
+        animales.add(new Terrestre());
     } 
     
     public void mostrarReino(){
@@ -25,7 +22,7 @@ public class Reino {
             int numAlt = (int) Math.floor(Math.random()*2);
             
             System.out.println(
-                    animales.get(i).medio()+"\n"+
+                    animales.get(i).getMedio()+"\n"+
                     animales.get(i).moverse(rapidez.get(numAlt))+"\n");
         }
     }
